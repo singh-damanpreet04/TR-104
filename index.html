@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Daily Diary - Weekly Progress Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://srijansingh9.github.io/Training-102-Report/gndecLogo.png" alt="GNDEC">
+                <div>
+                    <h1>Traning TR-104 Report</h1>
+                    <p>By Damanpreet Singh | URN 2203421 | GNDEC Ludhiana</p>
+                </div>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <h2>Six Months Training in Data Scientist</h2>
+            </div>
+
+
+            <!-- Loading State -->
+            <div class="loading" id="loadingState">
+                <div class="spinner"></div>
+                <p>Loading your weekly progress...</p>
+            </div>
+
+            <!-- Weeks Grid -->
+            <!-- -----------------------------------------------------------------------------------------------------------                          week 1 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="weeks-grid" id="weeksGrid">
+                <!-- Week 1 -->
+                <div class="week-card" data-week="1">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 1
+                        </div>
+                    </div>
+                    <p>Python, Numpy, Pandas</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>3 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>8 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week1-detail">
+                        <div class="detail-buttons">
+                            <!-- Python Resources -->
+                            <a href="https://www.geeksforgeeks.org/python/python-programming-language-tutorial/"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Tutorial</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="python-report">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Python Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing"
+                                class="detail-btn" target="_blank" id="link-1">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment</span>
+                            </a>
+
+                            <!-- Numpy Resources -->
+                            <a href="https://numpy.org/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Numpy Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 2</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-3">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 3</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-4">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 4</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/12T_EPPnvh1j2EEtPIlrb-K3JqZXkppa5?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Numpy Assignment</span>
+                            </a>
+
+                            <!-- Pandas Resources -->
+                            <a href="https://pandas.pydata.org/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Pandas Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Notes 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Notes 2</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-report-3">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Notes 3</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1Kq32o6LxBe76cx4RmPuxrsF6C8YnYUQO?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Pandas Assignment</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                <!-- Week 2 -->
+                <div class="week-card" data-week="2">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 2
+                        </div>
+                    </div>
+                    <p>Python, Matplotlib, Seaborn</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>2 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week2-detail">
+                        <div class="detail-buttons">
+                            <!-- Python Resources -->
+                            <a href="https://www.geeksforgeeks.org/python/introduction-to-python/" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Basics</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment</span>
+                            </a>
+
+                            <!-- Matplotlib Resources -->
+                            <a href="https://matplotlib.org/stable/index.html" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Matplotlib Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="matplotlib-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Matplotlib Report 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="matplotlib-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Matplotlib Report 2</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/11NBLv3B0CsLdZl-NbRcSlTtfiYO3I76L#scrollTo=45ad45a2"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Matplotlib Notebook</span>
+                            </a>
+
+                            <!-- Seaborn Resources -->
+                            <a href="https://seaborn.pydata.org/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Seaborn Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="seaborn-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Seaborn Report 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="seaborn-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Seaborn Report 2</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <!-- Week 3 -->
+                <div class="week-card" data-week="3">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 3
+                        </div>
+                    </div>
+                    <p>Python, Feature Engineering, EDA Task</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>5 Tasks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>3 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>1 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week3-detail">
+                        <div class="detail-buttons">
+                            <a href="https://www.geeksforgeeks.org/python/python-functions/" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Functions</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="python-RegEx">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Python - Regular Expression</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="feature-eng-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Feature Engineering Notes 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="feature-eng-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Feature Engineering Notes 2</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hwzcva02jW51OV7mw6s3bJBhjbKyX-p_?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 1 - Social Media Addiction</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1zuh8zxsHRhCoUmODngAyxYf_4I82w-fJ?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 2 - Sleep health and lifestyle</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/13ralpnhcWTDcbyPIwpmMzvi5MWAkZJx5?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 3 - World happiness report 2021</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1jCXbsVSEovyCmGlTVMArnNR3ulO3ItFZ?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 4 - Tallest people in the world</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/16D7DK1-AH5jcMxRm7r3_eScFueW57Vyu?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 5 - Employer Dataset</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+                <!-- Week 4 -->
+                <div class="week-card" data-week="4">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 4
+                        </div>
+                    </div>
+                    <p>Python, Assignments, Revision</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>4 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week4-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>NumPy Revision</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Revision</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hFNPX1XgVikaZPbFebxAvmA3dGLyukjJ?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python List</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1yRICsSaRc8l_N3IHmbUaaFL5-1LiJj8U?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Tuple, Sets, Dictionary</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1bwrvEiidU7WJe2WlknW4MlM84d9Ds2Lk?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Functions Assignment</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/19_M7kVlJYHxM7-KC3g6-f00hJCgtmHlL?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1vzmQdNKg3FWVZieWvlEm2azeckQnRBFM?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 3</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+                <!-- Week 5 -->
+                <div class="week-card" data-week="5">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 5
+                        </div>
+                    </div>
+                    <p>Postman API</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>1 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week5-detail">
+                        <div class="detail-buttons">
+                            <a href="https://www.geeksforgeeks.org/software-testing/postman-tutorial/"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Tutorial of Postman</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="postman-report">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Postman Notes</span>
+                            </button>
+                            <a href="https://www.postman.com/security-engineer-4818682/postman-api-fundamentals-student-expert/request/44457519-cec4af64-3271-46cf-a862-2ad84988b133?sideView=agentMode"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Postman Practice</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+                <!-- Week 6 -->
+                <div class="week-card" data-week="6">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 6
+                        </div>
+                    </div>
+                    <p>Python and SQL (Assignmnets)</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>3 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>1 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week6-detail">
+                        <div class="detail-buttons">
+                            <a href="https://realpython.com/python3-object-oriented-programming/" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>OOPs in Python</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="python-oops">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>OOPs Notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="SQL-connection">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="sql-ass1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Assignment 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="sql-ass2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Assignmnet 2</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="sql-ass3">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Assignment 3</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+                <!-- Week 7 -->
+                <div class="week-card" data-week="7">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 7
+                        </div>
+                    </div>
+                    <p>Machine Learning Intro <br> Supervised Machine Learning</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week7-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="data-cleaning">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Data Cleaning Notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="feature-engineering">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Feature Engineering</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1jCXbsVSEovyCmGlTVMArnNR3ulO3ItFZ?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Feature Engineering Task 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/16D7DK1-AH5jcMxRm7r3_eScFueW57Vyu?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Feature Engineering Task 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/13ralpnhcWTDcbyPIwpmMzvi5MWAkZJx5?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Feature Engineering Task 3</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="AI-ML-fundamental">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>AI-ML Fundamental</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="ML-workflow">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>ML Workflow</span>
+                            </button>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+                <!-- Week   8 -->
+                <div class="week-card" data-week="8">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 8
+                        </div>
+                    </div>
+                    <p>Linear Regression (Implementation , Assignments)</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>3 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week8-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="SLR-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Simple Linear Regression </span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="SLR-implementation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Simple Linear Regression Steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1dOnYnjSNnBzquyuAS-jMKOYm0ooPdDkn?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Simple Linear Regression Implementation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="MLR-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Multiple Linear Regression </span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="MLR-implementation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Multiple Linear Regression Steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/15BxWDcOUfDfA7ga99JY87jLJJ29g8iDh?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Multiple Linear Regression Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Z3HkqsU8RgHMP3F3LO0D0AR-VKD5WL4F?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Linear Regression Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1b570PmYx_qytMrVeZVBvEmn5cwdMYUck?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Linear Regression Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1IOYT4vydHqGtO-mIOfUCur2YGoKnNf-H?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Linear Regression Assignment 3</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+                <!-- Week 9 -->
+                <div class="week-card" data-week="9">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 9
+                        </div>
+                    </div>
+                    <p>Logistic Regression, Naive Bayes</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>2 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week9-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="classification-ML">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Classification in ML</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="LR-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Logistic Regression Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1IMz_5eDzEIyKkGCHnXqQCi6ubPyCCDer?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Logistic Regression Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/19n_v7lHWYep5lf111C1SjeX54CY9qpFU?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Logistic Regression Assignmnet 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1KFoVZTmzBVQ6D16MRmmYRuXfaxEQgcFM?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Logistic Regression Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1N2Nm3Bx7KAhb84h2A2pBBo5GgZmNzh1N?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Naive Bayes</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1RvKuHbPMjZ3uVxMjYe7-uxRYIiwAcD1U?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Naive bayes Implementation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="Bayesian-Questions">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numerical Questions Bayesian</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="Bayesian-Answer">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Answers of Bayesian Questions</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+                <!-- Week 10 -->
+                <div class="week-card" data-week="10">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 10
+                        </div>
+                    </div>
+                    <p>Decision Tree, Web Scraping</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>2 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>5 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week10-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="DT-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Decision Tree Notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="DT-implementation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Decision Tree Steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1U6nDDDdYw7pJtTAgk5XKVOX4A5HtLkvA?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Decision Tree Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1H9RKgdzRWMo724ACZ2wpmKzLUxItrasv?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Decision Tree Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1TzKGYkNRmzQ1N7x-qln32rSCGTpBAl3e?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Decision Tree Assignment 2</span>
+                            </a>
+                            <a href="https://docs.python-requests.org/en/latest/index.html" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Request Documentation</span>
+                            </a>
+                            <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Beautiful Soap Documentation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1GU3XZkyBQoumK2aQw5t89oQ1TiDI1ynz?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Web Scraping Code</span>
+                            </a>
+                            <a href="https://books.toscrape.com/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Scraping Website</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+                <!-- Week 11 -->
+                <div class="week-card" data-week="11">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 11
+                        </div>
+                    </div>
+                    <p>K-NN, Bias Variance Trade off</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>5 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week11-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="KNN-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>K-NN notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="KNN-Classification">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>K-NN Classification steps</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="KNN-Regression">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>K-NN Regression steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1jl3P21neenWI6U0J7484rB_lty74QLwa?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>K-NN implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Qzuv9JE_ZVgRAx10fcdISwohbhGpkPsf?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>K-NN Assignment</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="BVR-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Bias Variance Notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="Regularisation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Regularization Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1Kz3VoAiWvEDly67LwtumHeDOk9K4wRs-?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Bias Variance Trade Off</span>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+                <!-- Week 12 -->
+                <div class="week-card" data-week="12">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 12
+                        </div>
+                    </div>
+                    <p>SVM, Memory Management in Python</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week12-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="SVM-introduction">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SVM Introduction</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="SVM-implementation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SVM Steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/14eOxZ7DixWjGy-cisBvGlwdvsbQUm342?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>SVM Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1FjJhy0T1r7yVzWu5MKNnoTovN1HpCI4W?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>SVM Assignment</span>
+                            </a>
+                            <a href="https://docs.python.org/3/c-api/memory.html" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Memory Management in Python</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+                <!-- Week 13 -->
+                <div class="week-card" data-week="13">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 13
+                        </div>
+                    </div>
+                    <p>Ensemble Learning, Dataiku</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>6 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week13-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="EL">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Ensemble Learning Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1a8POSXsfiGKhsBjRPmSRDC2EDOOMWQ36?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Ensemble Learning</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1MeqfmZSmnmyLS2wC0KPSuczAchjW1-f4?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Ensemble Models</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/16uuSnoUNKPydM6Itvza5W28akR-nRkhM?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Ensemble Methods</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="AdaBoost">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>AdaBoost Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1QbogFc_0Wb8CNhZjmIT9YRAEWms1uKIX?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>AdaBoost Implementation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="Gradient-Boosting">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Gradient Boosting Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hb8DgY9Juy-jIyHvBBMc3iUmAL-HXdcS?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Gradient Boosting Implementation</span>
+                            </a>
+                            <a href="https://academy.dataiku.com/path/core-designer" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataiku - Core Designer Certificate</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="CDC-dataiku">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Dataiku Certificate - Core Designer Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+                <!-- Week 14 -->
+                <div class="week-card" data-week="14">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 14
+                        </div>
+                    </div>
+                    <p>Ensemble learning, FastAPI (Project)</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>3 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>5 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week14-detail">
+                        <div class="detail-buttons">
+                            <button class="detail-btn pdf-btn" data-pdf="EL">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Stacking Notes</span>
+                            </button>
+                            <button class="detail-btn pdf-btn"
+                                data-pdf="c:\Users\DELL\Downloads\GD & XGBOOST__1776938712-5ea65d4bfbba7875acb26a15">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Stacking Implementation</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="XGBOOST">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>XGBOOST Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1cKyAPZfRCgD-roRdWx_1yUvQ33IF_q5N?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>XGBOOST Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1GjThkHRxqkgPuRLTYm-DZS5GQAkoxJO0?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>XGBOOST Assignment</span>
+                            </a>
+                            <a href="https://academy.dataiku.com/path/advanced-designer" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataiku - Advanced Designer Certificate</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="ADC-dataiku">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Dataiku Certificate - Advanced Designer Certificate</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1q0b7lJKVN2C1ZJFVjlq5Nd6dOs5EHDjg?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>FastAPI</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1lkYFUcmNp_w-G36UCK0n4ROrpd0Z1zVJ?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>FastAPI Project</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+                <!-- Week 15 -->
+                <div class="week-card" data-week="15">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 15
+                        </div>
+                    </div>
+                    <p>Unsupervised Machine Learning Intro <br> K-Means & Hierarchical Clustering </p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>1 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week15-detail">
+                        <div class="detail-buttons">
+                            <a href="https://colab.research.google.com/drive/1yJKgQgbVEHOu8B4hx5MxInWZqFAfo5Wo?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Unsupervised Machine Learning Introduction</span>
+                            </a>
+
+                            <a href="https://colab.research.google.com/drive/1UWUNR6U5Qutk1DMo5sU-DXwSSQsqBvoZ?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>K-Means Clustering Implementation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="Hierarchical-Clustering">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Hierarchical Clustering Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1YDY0s74modMURHz_BYQ3JcX3sAOH4f82?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Hierarchical Clustering Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1-l5gQht3nQKotGv_Uxkw0YwvadYYg6Pc?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>K-Means & Hierarchical Clustering Assignment</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+                <!-- Week 16 -->
+                <div class="week-card" data-week="16">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 16
+                        </div>
+                    </div>
+                    <p>DBSCAN Algorithm <br> Deep Learning Intro <br> Power BI</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>4 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week16-detail">
+                        <div class="detail-buttons">
+                            <a href="https://colab.research.google.com/drive/1Wu6ZJcWwR_4fsnkwjTo0YdTguE97ulch?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>DBSCAN Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1NnJo2uN3t2wfzAJQPeGWCQRmw9v7hrw1?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>DBSCAN Assignmnet</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1K9wfNhhtX77vki_HHQw9li_ffBpmMKZ-?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Deep Learning Introduction</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1EA5-f9rNuvW88bzTrlZyAZWNyNQQ2k0W?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Deep Learning Implementation</span>
+                            </a>
+                            <a href="https://monashdatafluency.github.io/Power_BI/introduction-to-power-bi.html#overview-of-power-bi"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Power BI Introduction</span>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+                <!-- Week 17 -->
+                <div class="week-card" data-week="17">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 17
+                        </div>
+                    </div>
+                    <p>Deep Learning - Perceptron, Forward Propagation</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week17-detail">
+                        <div class="detail-buttons">
+                            <a href="https://rtavenar.github.io/deep_book/en/content/en/perceptron.html"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Perceptron</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1m6-5ZZG0Ipdthfi3jU0L-47lkTNMIncK?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Perceptron Implementation</span>
+                            </a>
+                            <a href="https://deep-learning-cheatsheet.readthedocs.io/en/latest/forwardpropagation.html"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Forward Propagation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1ogqcm53Ng8V1XtU-9BG4Ur7ENgGWL0OW?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Forward Propagation Implementation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+                <!-- Week 18 -->
+                <div class="week-card" data-week="18">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 18
+                        </div>
+                    </div>
+                    <p>Deep Learning - Dataset Working <br>
+                        Project Working - Collect Datasets</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>6 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week18-detail">
+                        <div class="detail-buttons">
+                            <a href="https://colab.research.google.com/drive/1iz0bK6qiLACV1W2vX-F6RBIiDItRkHID?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>DL-Object Detection</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1enPhvCIxs6go92JIn3vMaKJPhAz9ZiR4?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>DL-Timeseries Forecasting</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1XIuYCuiQXwXWJ9V-1U86qdveQ8UwW2mD?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>DL-Text Classification</span>
+                            </a>
+                            <a href="https://www.kaggle.com/datasets/shukla922/indian-e-commerce-pricing-revenue-growth"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataset 1 - Indian E-commerce Pricing, Revenue Growth Dataset</span>
+                            </a>
+                            <a href="https://www.kaggle.com/datasets/nafisansari/dmart-sample-dataset"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataset 2 - DMart Sales Data</span>
+                            </a>
+                            <a href="https://www.kaggle.com/datasets/ashyou09/apple-global-product-sales-dataset"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataset 3 - Apple Global Product Sales Dataset 🍎</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+                <!-- Week 19 -->
+                <div class="week-card" data-week="19">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 19
+                        </div>
+                    </div>
+                    <p>Deep Learning - Loss Functions, Backpropagation</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>4 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week19-detail">
+                        <div class="detail-buttons">
+                            <a href="https://rtavenar.github.io/deep_book/en/content/en/perceptron.html"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Perceptron - Loss functions</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1m6-5ZZG0Ipdthfi3jU0L-47lkTNMIncK?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Perceptron Implementation</span>
+                            </a>
+                            <a href="https://deep-learning-cheatsheet.readthedocs.io/en/latest/forwardpropagation.html"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Forward Propagation and Backpropagation</span>
+                            </a>
+                            <a href="https://deep-learning-cheatsheet.readthedocs.io/en/latest/forwardpropagation.html"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Backpropagation Implementation</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                <!-- Week 20 -->
+                <div class="week-card" data-week="20">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 20
+                        </div>
+                    </div>
+                    <p>Project Woking <br> Deep Learning , Power BI, Dataiku</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>3 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>4 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week20-detail">
+                        <div class="detail-buttons">
+                            <a href="https://deeplizard.com/resource/pavq7noze2" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Engage with Deep learning</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="CNN">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Convolutional Neural Networks</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1EihuRmFCatn298I3ApATt-YEP5EhfB-8?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>CNN Introduction</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/18ZL7IebICXctLlqd2GNDZBE2hX7xjHbU?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>CNN Implementation</span>
+                            </a>
+                            <a href="Amazon-Prime-Video-Dashboard-img.png" class="detail-btn" target="_blank">
+                                <i class="fas fa-image"></i>
+                                <span>PowerBI - Amazon Prime Video Dashboard</span>
+                            </a>
+                            <a href="https://academy.dataiku.com/path/ml-practitioner" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataiku - ML Practitioner</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="ML-dataiku">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Dataiku Certificate - ML Practitioner</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+                <!-- Week 21 -->
+                <div class="week-card" data-week="21">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 21
+                        </div>
+                    </div>
+                    <p>Project Woking <br> Deep Learning , Power BI, Dataiku</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>6 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week21-detail">
+                        <div class="detail-buttons">
+                            <a href="https://deeplizard.com/resource/pavq7noze2" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Engage with Deep learning</span>
+                            </a>
+                            <a href="https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Deep Learning Playlist</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="CNN">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Convolutional Neural Networks</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1EihuRmFCatn298I3ApATt-YEP5EhfB-8?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>CNN Introduction</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/18ZL7IebICXctLlqd2GNDZBE2hX7xjHbU?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>CNN Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1O0abrW1FgPqmUvxH21q3SUlyK4ncP2Fd?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Keras Pooling</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1wONCw9Wkg9QvwCtU9d36kvAL4vtLNRr8?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Keras Padding</span>
+                            </a>
+                            <a href="Sales-Dashboard-img.png" class="detail-btn" target="_blank">
+                                <i class="fas fa-image"></i>
+                                <span>PowerBI - Sales Dashboard</span>
+                            </a>
+                            <a href="https://academy.dataiku.com/path/genai-practitioner" class="detail-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dataiku - Generative AI Practitioner</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="CDC-dataiku">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Dataiku Certificate - Generative AI Practitioner</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <!-- Week 22 -->
+                <div class="week-card" data-week="22">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 22
+                        </div>
+                    </div>
+                    <p>Project Woking <br> Deep Learning </p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>1 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>6 Links</span>
+                        </div>
+                    </div>
+
+                    <div class="week-detail" id="week22-detail">
+                        <div class="detail-buttons">
+                            <a href="https://deeplizard.com/resource/pavq7noze2" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Engage with Deep learning</span>
+                            </a>
+                            <a href="https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Deep Learning Playlist</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="CNN">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Convolutional Neural Networks</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1EihuRmFCatn298I3ApATt-YEP5EhfB-8?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>CNN Introduction</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/18ZL7IebICXctLlqd2GNDZBE2hX7xjHbU?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>CNN Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1O0abrW1FgPqmUvxH21q3SUlyK4ncP2Fd?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Keras Pooling</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1wONCw9Wkg9QvwCtU9d36kvAL4vtLNRr8?usp=sharing"
+                                class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Keras Padding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+            </div>
+        </main>
+    </div>
+
+    <!-- PDF Viewer Modal -->
+    <div class="pdf-modal" id="pdfModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">PDF Viewer</h3>
+                <button class="modal-close" onclick="closePDFModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="pdf-controls">
+                    <button class="control-btn" onclick="downloadCurrentPDF()">
+                        <i class="fas fa-download"></i>
+                        Download
+                    </button>
+                    <button class="control-btn" onclick="fullscreenCurrentPDF()">
+                        <i class="fas fa-expand"></i>
+                        Fullscreen
+                    </button>
+                </div>
+                <iframe id="pdfFrame" src=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
